@@ -1,6 +1,9 @@
+import { headerContent } from '.';
+import { additionalContent } from '.';
+
 const clearDisplay = () => {
-  const content = document.querySelector('#main-content');
-  content.innerHTML = '';
+  headerContent.innerHTML = '';
+  additionalContent.innerHTML = '';
 };
 
 export { clearDisplay };
