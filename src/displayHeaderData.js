@@ -11,12 +11,24 @@ const displayHeaderData = async (city) => {
     class: ['header-content-info'],
   });
 
+  const place = createElement('div', {
+    class: ['location-info'],
+  });
+
+  const locationIcon = createElement('span', {
+    class: ['fa-solid', 'fa-location-dot'],
+  });
+
   const location = createElement('p', {
     class: ['location'],
     textContent: `${result.name}, ${result.country}`,
   });
 
+  place.appendChild(locationIcon);
+  place.appendChild(location);
+
   const img = createElement('img', {
+    class: ['weather-img'],
     src: `http://openweathermap.org/img/wn/${result.icon}.png`,
   });
 
@@ -81,7 +93,8 @@ const displayHeaderData = async (city) => {
   weatherAdditionalInfo.appendChild(weatherWindContainer);
   weatherAdditionalInfo.appendChild(weatherHumidityContainer);
 
-  div.appendChild(location);
+  // div.appendChild(location);
+  div.appendChild(place);
   div.appendChild(img);
   div.appendChild(temp);
   div.appendChild(weatherDesc);
