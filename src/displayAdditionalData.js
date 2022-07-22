@@ -10,7 +10,7 @@ const displayAdditionalData = async (city) => {
   });
 
   const tempMinContainer = createElement('div', {
-    class: ['temp-min-container'],
+    class: ['temp-min-container', 'info-card'],
   });
 
   const tempMin = createElement('h3', {
@@ -30,7 +30,7 @@ const displayAdditionalData = async (city) => {
   tempMinContainer.appendChild(tempMinInfo);
 
   const feelsLikeContainer = createElement('div', {
-    class: ['feels-like-container'],
+    class: ['feels-like-container', 'info-card'],
   });
 
   const feelsLike = createElement('h3', {
@@ -50,7 +50,7 @@ const displayAdditionalData = async (city) => {
   feelsLikeContainer.appendChild(feelsLikeInfo);
 
   const tempMaxContainer = createElement('div', {
-    class: ['temp-max-container'],
+    class: ['temp-max-container', 'info-card'],
   });
 
   const tempMax = createElement('h3', {
