@@ -93,7 +93,6 @@ const displayHeaderData = async (city) => {
   weatherAdditionalInfo.appendChild(weatherWindContainer);
   weatherAdditionalInfo.appendChild(weatherHumidityContainer);
 
-  // div.appendChild(location);
   div.appendChild(place);
   div.appendChild(img);
   div.appendChild(temp);
