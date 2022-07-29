@@ -9,10 +9,10 @@ The idea of this project came from [The odin project](https://www.theodinproject
 Things I learned while I was doing this project:
 
 ```
-- Work with APIs
-- Asynchronous code
-- Asyn/Await
-- Fetch
+- Work with APIs.
+- Asynchronous code.
+- Asyn/Await.
+- Fetch.
 ```
 
 ## Features
@@ -39,4 +39,4 @@ Things I learned while I was doing this project:
 
 For this project, I got some inspiration from Google
 
-Made with :heart: by my.
+Made with :heart: by me.
